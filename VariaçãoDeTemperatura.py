@@ -25,4 +25,5 @@ transf = (z - 32) * 5/9
 print('Temp em Celcius é:', transf, 'C')
 
 transf = (z - 32) * 5/9 + 273,15
+
 print('Temp em Kelvin é:', transf, 'K')
