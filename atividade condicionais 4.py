@@ -17,10 +17,10 @@ match nota:
     case 2:
         print('Porque uma nota tão ruim, pode me dizer o pq?')
         input()
-        print('Obrigado pela nota mesmo assim!')
+        print('Agradecemos por avaliação!')
     case 1:
         print('Porque uma nota tão ruim, pode me dizer o pq?')
         input()
-        print('Obrigado pela nota mesmo assim!')
+        print('Agradecemos por avaliação!')
     case _:
-        print('Marcou errado heim')
+        print('Opção não encontrada')
