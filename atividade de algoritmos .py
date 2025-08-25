@@ -11,6 +11,6 @@ elif tabela <= 12 and tabela <= 7:
 elif tabela >= 16 and tabela <= 20:
     print('seu time está rebaixado')
 elif tabela > 20:
-    print('Essa posição não existe') 
+    print('Essa posição na classificação não existe!') 
 else:
     print('seu time está no meio de tabela')
