@@ -1,6 +1,6 @@
 senha = ''
 while senha != 'flamengo':
-    print('Digite o melhor time do Brasil que é o meu:')
+    print('Digite o melhor time do Brasil (que é o meu):')
     senha = input()
 
     if senha == 'flamengo':
