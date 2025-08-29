@@ -1,10 +1,10 @@
 #demonstração de estrutura repetitiva...
 contador = 0; senha = ''
-while senha != 's3nh4':
+while senha != '1234':
     print('Digite a senha:')
     senha = input()
 
-    if senha == 's3nh4':
+    if senha == '1234':
         print('senha correta!')
         break
     else:
