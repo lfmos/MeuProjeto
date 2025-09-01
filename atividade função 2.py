@@ -1,13 +1,14 @@
 #Par ou impar
+import random
+def resposta(w):
+    if w % 2 == 0:
+        print(f'{w} é par')
+        print('usuário wins')
+    else:
+        print(f'{w} é impar')
+        print('computador wins')
 
-x = int(input('Digite o seu número: '))
-y = int(input('Digite o outro número: '))
-
+x = random.randint(0, 10)
+y = int(input('Digite um número: '))
 w = x + y
-
-if w % 2 == 0:
-    print(f'{w} é par')
-    print('usuário wins')
-else:
-    print(f'{w} é impar')
-    print('computador wins')
+resposta(w)
