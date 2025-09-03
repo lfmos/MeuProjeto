@@ -13,4 +13,3 @@ print(sorted(palavras))
 print('o somatório de números:', sum(numeros))
 print('qual é o maior valor?', max(numeros))
 print('qual é a primeira palavra?', min(palavras))
-
