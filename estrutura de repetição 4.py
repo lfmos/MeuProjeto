@@ -1,4 +1,5 @@
 #demonstração de estrutura repetitiva...
+
 contador = 0; senha = ''
 while senha != 's3nh4':
     print('Digite a senha:')
