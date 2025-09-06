@@ -19,12 +19,16 @@ print('66 minutos primeira substituição (sai 15 gerson e entra 10 diego)')
 time.remove('15 gerson')
 time.insert(6, '10 diego')
 
-print('86 minutos primeira substituição (sai 15 gerson e entra 10 diego)')
+print('86 minutos segunda substituição (sai 5 arão e entra 11 diego)')
 
 time.remove('5 arão')
 time.insert(5, '11 vitinho')
 
+print('94 minutos terceira substituição (sai 14 arrascaeta e entra 25 piris)')
+
 time.remove('14 arrascaeta')
 time.insert(7, '25 piris')
 
-print('Flamengo terminol o jogo com esse elenco ', time)
+print('Flamengo terminol o jogo com esse elenco: ')
+for jogadores in time: 
+    print(jogadores)
